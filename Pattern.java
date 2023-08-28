@@ -368,14 +368,14 @@ class Pattern22{
                 int left = j;
                 int right = (2*n -2);
                 int down = (2*n -2);
-                System.out.print(n - min(min(top, down), min(left, right)));
+                // System.out.print(n - min((top, down), min(left, right)));
             }
             System.out.println();
         }
     }
 }
 
-class first {
+class Pattern {
     public static void main(String[] args) {
 
         // Pattern1 obj1 = new Pattern1();
@@ -435,11 +435,11 @@ class first {
         // Pattern20 obj20 = new Pattern20();
         // obj20.pattern20(5,5);
 
-        // Pattern21 obj21 = new Pattern21();
-        // obj21.pattern21(7,7);
+        Pattern21 obj21 = new Pattern21();
+        obj21.pattern21(7,7);
 
-        Pattern22 obj22 = new Pattern22();
-        obj22.pattern22(7,7);
+        // Pattern22 obj22 = new Pattern22();
+        // obj22.pattern22(7,7);
 
 
 
